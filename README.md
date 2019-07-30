@@ -60,7 +60,7 @@ export default {
     	*set({payload, callback}, {call, put,select}) {
             // 实现 put 方法，功能与dva 基本一致，可调用本 model 或 其他  namespace model 的 reducers 方法
             // 实现 select 方法，与 dva 基本一致
-            // 实现 call 方法，与 dva 基本一致，提示：
+            // 实现 call 方法，与 dva 基本一致
             // 需要兼容异步情况(只考虑 Promise 返回情况)，利用 Generator next 方法实现
             /** 
               支持语法：
